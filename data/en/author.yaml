@@ -1,0 +1,15 @@
+# some information about you
+name: "Jelena Micic"
+nickname: "Jeli"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/jeli.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "jelena1787@gmail.com"
+  phone: "+49 170 83 90 614"
+
+# some summary about what you do
+summary:
+  - I am QA Tester / Manager / Test Automation Engineer
+  - I love cypress.io

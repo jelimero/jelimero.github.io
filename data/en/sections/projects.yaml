@@ -1,0 +1,42 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: Hobby
+  filter: "hobby"
+
+# your projects
+projects:
+- name: Dotfiles
+  logo: /images/sections/projects/kubernetes.png
+  role: Contributor
+  timeline: "February 2020 - present"
+  repo: https://gitlab.com/acidhunter/dotfiles # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary: Dotfiles that I use on my workstations
+  tags: ["hobby", "dotfiles"]
+
+- name: Tensorflow
+  logo: /images/sections/projects/tensorflow.png
+  role: Developer
+  timeline: "Jun 2018 - Present"
+  repo: https://github.com/tensorflow/tensorflow
+  #url: ""
+  summary: An Open Source Machine Learning Framework for Everyone.
+  tags: ["professional", "machine-learning","academic"]
+
+- name: Toha
+  logo: /images/sections/projects/toha.png
+  role: Owner
+  timeline: "Jun 2019 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["hobby","hugo","theme","professional"]

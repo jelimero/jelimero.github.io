@@ -1,0 +1,52 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: QA Tester / Test Automation
+# your company information
+company:
+  name: Ociris GmbH
+  url: "https://www.g-portal.com/"
+
+# your resume. this file path should be relative to you "static" directory
+#resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am a passionate QA Tester with 5 years of working experience. I established and developed quality standards including test management tools and implementation of the e2e testframework cypress.io for automated frontend tests.'
+
+socialLinks:
+  - name: email
+    icon: "fab fa-envelope"
+    url: "mailto: jelena1787@gmail.com"
+  - name: Github
+    icon: "fab fa-github"
+    url: "https://github.com/jelimero"
+  - name: Linkedin
+    icon: "fab fa-linkedin"
+    url: "https://www.linkedin.com/in/jelena-micic-2b089910a/"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Attention to detail
+  percentage: 100
+  color: magenta
+- name: Team Work
+  percentage: 100
+  color: cyan
+- name: Problem-Solving
+  percentage: 100
+  color: grey
+- name: Multitasking
+  percentage: 90
+  color: black
+- name: Communication
+  percentage: 90
+  color: orange,

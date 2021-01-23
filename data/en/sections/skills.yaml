@@ -1,0 +1,56 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Testrail
+  icon: "/images/sections/skills/testrail.png"
+  summary: "Capable of writing Test Cases and plans. Test runs used as communication of rest results to the management and as happy path test suite for the automated e2e tests."
+  url: "https://www.gurock.com/testrail/"
+
+- name: Browserstack
+  icon: "/images/sections/skills/browserstack.png"
+  summary: "Used for cross browser / device testing for webapplications"
+  url: "https://www.browserstack.com/"
+
+- name: cypress.io
+  icon: "/images/sections/skills/cypress.png"
+  summary: "Capable of setting up cypress for web applications, writing test cases and creating test suites for e2e tests. Experienced in using docker images and making it work for Continuous Integration"
+  url: "https://cypress.io/"
+
+- name: JavaScript
+  icon: "/images/sections/skills/js.png"
+  summary: "Capable of writing test scripts with cypress.io. Basic knowledge"
+
+- name: HTML5
+  icon: "/images/sections/skills/html.png"
+  summary: "Basic knowledge"
+
+- name: SQL
+  icon: "/images/sections/skills/sql.png"
+  summary: "Capable of writing simple queries and using the data for verification while Testing the application"
+
+- name: npm
+  icon: "/images/sections/skills/npm.png"
+  summary: "Used for integrating cypress.io as dev dependency and for managing packages that were used by cypress.io, like testrail reporter."
+
+- name: Docker
+  icon: "/images/sections/skills/docker.png"
+  summary: "Basic Knowledge, used as development environment and made use of docker images to run cypress.io"
+
+- name: Git
+  icon: "/images/sections/skills/git.png"
+  summary: "Experienced with git-based development. Mostly with Gitlab"
+  url: "https://gitlab.com/"
+
+- name: MacOS
+  icon: "/images/sections/skills/mac.jpg"
+  summary: "Used as the main operating system. Capable of writing bash/shell scripts"
