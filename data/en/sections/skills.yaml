@@ -12,45 +12,45 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Testrail
-  icon: "static/images/sections/skills/testrail.png"
+  icon: "/images/testrail.png"
   summary: "Capable of writing Test Cases and plans. Test runs used as communication of rest results to the management and as happy path test suite for the automated e2e tests."
   url: "https://www.gurock.com/testrail/"
 
 - name: Browserstack
-  icon: "static/images/sections/skills/browserstack.png"
+  icon: "/images/browserstack.png"
   summary: "Used for cross browser / device testing for webapplications"
   url: "https://www.browserstack.com/"
 
 - name: cypress.io
-  icon: "static/images/sections/skills/cypress.png"
+  icon: "/images/cypress.png"
   summary: "Capable of setting up cypress for web applications, writing test cases and creating test suites for e2e tests. Experienced in using docker images and making it work for Continuous Integration"
   url: "https://cypress.io/"
 
 - name: JavaScript
-  icon: "static/images/sections/skills/js.png"
+  icon: "/images/js.png"
   summary: "Capable of writing test scripts with cypress.io. Basic knowledge"
 
 - name: HTML5
-  icon: "static/images/sections/skills/html.png"
+  icon: "/images/html.png"
   summary: "Basic knowledge"
 
 - name: SQL
-  icon: "static/images/sections/skills/sql.png"
+  icon: "/images/sql.png"
   summary: "Capable of writing simple queries and using the data for verification while Testing the application"
 
 - name: npm
-  icon: "static/images/sections/skills/npm.png"
+  icon: "/images/npm.png"
   summary: "Used for integrating cypress.io as dev dependency and for managing packages that were used by cypress.io, like testrail reporter."
 
 - name: Docker
-  icon: "static/images/sections/skills/docker.png"
+  icon: "/images/docker.png"
   summary: "Basic Knowledge, used as development environment and made use of docker images to run cypress.io"
 
 - name: Git
-  icon: "static/images/sections/skills/git.png"
+  icon: "/images/git.png"
   summary: "Experienced with git-based development. Mostly with Gitlab"
   url: "https://gitlab.com/"
 
 - name: MacOS
-  icon: "static/images/sections/skills/mac.jpg"
+  icon: "/images/mac.jpg"
   summary: "Used as the main operating system. Capable of writing bash/shell scripts"
