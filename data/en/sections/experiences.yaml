@@ -23,14 +23,14 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Establishment and development of quality standards for GPORTAL web interface
-    - Introduction and maintenance of the quality management tool Testrail, development of the master test plan and the individual project test plans in coordination with the product owner. 
-    - Creation of missing User Stories and Acceptance Criterias which are used as a basis for the individual test cases of the master test plan
-    - Evaluation of suitable e2e test automation frameworks. Planning and implementation of the e2e framework cypress.io, definition of a Happy Path test plan for the initial introduction of the framework, reporting of test results via plugin to Testrail, development and maintenance of the e2e test scripts. 
-    - Continuous knowledge exchange with the development team when changing front-end frameworks from vanilla.js to vue.js to ensure that existing features meet quality standards in both functionality and design and to ensure the testability of individual components using manual or e2e tests. 
-    - Application of different test types and techniques such as explorative testing, decision table creation, threshold analysis, acceptance testing, browser and device compatibility testing, regression testing and result analysis. Creation of bug and feature ticket templates and introduction of release notes. 
-    - Writing Release Notes and Coordination of Releases with the Lead Developer
-    - Writing Bug Reports and Feature Requests
+     - Establishment and development of quality standards for GPORTAL web interface
+     - Introduction and maintenance of the quality management tool Testrail, development of the master test plan and the individual project test plans in coordination with the product owner. 
+     - Creation of missing User Stories and Acceptance Criterias which are used as a basis for the individual test cases of the master test plan
+     - Evaluation of suitable e2e test automation frameworks. Planning and implementation of the e2e framework cypress.io, definition of a Happy Path test plan for the initial introduction of the framework, reporting of test results via plugin to Testrail, development and maintenance of the e2e test scripts. 
+     - Continuous knowledge exchange with the development team when changing front-end frameworks from vanilla.js to vue.js to ensure that existing features meet quality standards in both functionality and design and to ensure the testability of individual components using manual or e2e tests. 
+     - Application of different test types and techniques such as explorative testing, decision table creation, threshold analysis, acceptance testing, browser and device compatibility testing, regression testing and result analysis. Creation of bug and feature ticket templates and introduction of release notes. 
+     - Writing Release Notes and Coordination of Releases with the Lead Developer
+     - Writing Bug Reports and Feature Requests
 - company:
     name: Scherer Software GmbH / magicplan inc
     url: "https://magicplan.app"
@@ -41,15 +41,15 @@ experiences:
     start: September 2016
     end: January 2020
     responsibilities:
-    - Test Management (taking care of test devices, test accounts and processes)
-    - Working on requirements for new features and enhancements (magicplan)
-    - Project Management / Scrum Master / Support for magicplan and B&O tenant damage reporting interface
-    - Acceptance/Usability/Regression/Confirmation Testing (Manual Testing)
-    - Designing Test Plans and taking care of actuality of those
-    - Test Automation (cypress.io / javascript testing framework): writing test scripts, creating a plan for feature coverage
-    - Writing Bug Reports and taking care of templates (companywide)
-    - PHP and vue.js translations (Cleanup of unused/duplicate strings and creating new ones) for magicplan
-    - Writing Release Notes and Coordination of Releases with the Lead Developer
+     - Test Management (taking care of test devices, test accounts and processes)
+     - Working on requirements for new features and enhancements (magicplan)
+     - Project Management / Scrum Master / Support for magicplan and B&O tenant damage reporting interface
+     - Acceptance/Usability/Regression/Confirmation Testing (Manual Testing)
+     - Designing Test Plans and taking care of actuality of those
+     - Test Automation (cypress.io / javascript testing framework) writing test scripts, creating a plan for feature coverage
+     - Writing Bug Reports and taking care of templates (companywide)
+     - PHP and vue.js translations (Cleanup of unused/duplicate strings and creating new ones) for magicplan
+     - Writing Release Notes and Coordination of Releases with the Lead Developer
 - company:
     name: Informationszentrale der Bayerischen Wirtschaft e.V.
     url: "https://www.ibw-bayern.de/willkommen"
@@ -60,16 +60,16 @@ experiences:
     start: December 2014
     end: August 2016
     responsibilities:
-    - Maintenance of the ibw homepage (Pimcore)
-    - Social media monitoring (Facebook and Twitter channels of the associations) 
-    - Organization of the initial mailing of brochures within the associations and management of the budget
-    - Business cards for the employees of the Bavarian Business Association (vbw) and the Bavarian metal and electrical employers (bayme vbm)
-    - Sending central and regional press releases via:  Email, fax (with Opentext), posting in the internal Lotus Notes database and posting in the content management system (First Spirit).
-    - Organization of press conferences (sending invitations, keeping the list of participants, organization of catering, premises and technology), reception of journalists on site
-    - Monthly distribution of the "Arguments on Business Issues" (IW Cologne) via the VIP Association Newsletter. The arguments are pulled into the newsletter via the content management system. 
-    - Travel bookings and settlements
-    - Recording jobs of TV and radio reports
-    - Subscriber management for sending the daily association newsletter
+     - Maintenance of the ibw homepage (Pimcore)
+     - Social media monitoring (Facebook and Twitter channels of the associations) 
+     - Organization of the initial mailing of brochures within the associations and management of the budget
+     - Business cards for the employees of the Bavarian Business Association (vbw) and the Bavarian metal and electrical employers (bayme vbm)
+     - Sending central and regional press releases via Email, fax (with Opentext), posting in the internal Lotus Notes database and posting in the content management system (First Spirit).
+     - Organization of press conferences (sending invitations, keeping the list of participants, organization of catering, premises and technology), reception of journalists on site
+     - Monthly distribution of the "Arguments on Business Issues" (IW Cologne) via the VIP Association Newsletter. The arguments are pulled into the newsletter via the content management system. 
+     - Travel bookings and settlements
+     - Recording jobs of TV and radio reports
+     - Subscriber management for sending the daily association newsletter
 - company:
     name: Siemens Global Shared Services, Accounting and Controlling
     location: Munich
@@ -78,12 +78,12 @@ experiences:
     start: September 2010
     end: July 2014
     responsibilities:
-    - Maintenance of internal Sharepoint and Intranet
-    - KeyUser for oneSRM: User Management
-    - oneSRM: Creation of orders and monitoring of those, Postings of the goods receipt
-    - Creation of monthly reports with UBIS (ERP)
-    - Administrative tasks: Maintaining supervisor calendar, meeting organization, travel bookings and invoicing, creating global email distribution lists, introducing new employees to the Siemens Office concept.
-    - IT Ordering Entity (Software, Hardware)
+     - Maintenance of internal Sharepoint and Intranet
+     - KeyUser for oneSRM User Management
+     - oneSRM Creation of orders and monitoring of those, Postings of the goods receipt
+     - Creation of monthly reports with UBIS (ERP)
+     - Administrative tasks Maintaining supervisor calendar, meeting organization, travel bookings and invoicing, creating global email distribution lists, introducing new employees to the Siemens Office concept.
+     - IT Ordering Entity (Software, Hardware)
 - company:
     name: Siemens IT Solutions and Services
     location: Munich
@@ -92,13 +92,13 @@ experiences:
     start: July 2008
     end: Septemeber 2010
     responsibilities:
-    - Monitoring of the account closing within the customer cluster Industry Nuremberg and Telemedia as well as release of the monthly working hours of the consultants
-    - Controlling of booked hours in SAP and creation of billings
-    - Maintenance of the contract database
-    - Sharepoint - Administration 
-    - Event organization 
-    - SLA (Service Level Agreement) Reporting
-    - Preparation of accounting file for change requests
+     - Monitoring of the account closing within the customer cluster Industry Nuremberg and Telemedia as well as release of the monthly working hours of the consultants
+     - Controlling of booked hours in SAP and creation of billings
+     - Maintenance of the contract database
+     - Sharepoint - Administration 
+     - Event organization 
+     - SLA (Service Level Agreement) Reporting
+     - Preparation of accounting file for change requests
 - company:
     name: Siemens IT Solutions and Services
     location: Munich
@@ -107,10 +107,10 @@ experiences:
     start: September 2005
     end: July 2008
     responsibilities:
-    - Coordination of meetings 
-    - Email communication German and English
-    - Travel Management and Travel expense report 
-    - Event organization
-    - Creation of organization charts
-    - SAP R/3 based reports
-    - Document Storage
+     - Coordination of meetings 
+     - Email communication German and English
+     - Travel Management and Travel expense report 
+     - Event organization
+     - Creation of organization charts
+     - SAP R/3 based reports
+     - Document Storage

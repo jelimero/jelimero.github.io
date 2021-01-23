@@ -1,6 +1,6 @@
 # section information
 section:
-  name: About
+  name: About Me
   id: about
   enable: true
   weight: 1
@@ -22,7 +22,7 @@ summary: 'I am a passionate QA Tester with 5 years of working experience. I esta
 
 socialLinks:
   - name: email
-    icon: "fab fa-envelope"
+    icon: "fas fa-envelope"
     url: "mailto: jelena1787@gmail.com"
   - name: Github
     icon: "fab fa-github"
@@ -35,18 +35,18 @@ socialLinks:
 # give the percentage between 50 to 100 with 5 intervals.
 # currently supported colors: blue, yellow, pink, green, sky, orange
 softSkills:
-- name: Attention to detail
+- name: Eye for detail
   percentage: 100
-  color: magenta
+  color: blue
 - name: Team Work
   percentage: 100
-  color: cyan
+  color: yellow
 - name: Problem-Solving
   percentage: 100
-  color: grey
+  color: pink
 - name: Multitasking
   percentage: 90
-  color: black
+  color: green
 - name: Communication
   percentage: 90
-  color: orange,
+  color: sky
