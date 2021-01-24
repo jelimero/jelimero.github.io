@@ -1,6 +1,6 @@
 baseURL: https://jelimero.github.io
 languageCode: en-us
-title: Curriculum Vitae
+title: Jelena Micic
 theme: "toha"
 
 # Manage languages
@@ -26,7 +26,7 @@ params:
   gitRepo: https://github.com/jelimero/jelimero.github.io
 
   # specify whether you want to write some blog posts or not
-  enableBlogPost: true
+  enableBlogPost: false
 
   # specify whether you want to show Table of Contents in reading page
   enableTOC: true

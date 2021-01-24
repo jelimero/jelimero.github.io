@@ -37,7 +37,7 @@ experiences:
     location: Munich
     overview: magicplan inc uses AR for scanning and measuring floor plans. 
   positions:
-  - designation: Quality Assurance (Testing, Management, Testautomation e2e), Project Manager, Scrum Master for magicplan Cloud and B&O tenant damage reporting interface
+  - designation: QA Tester/Management and Test Automation, Project Manager, Scrum Master
     start: September 2016
     end: January 2020
     responsibilities:
@@ -46,7 +46,7 @@ experiences:
      - Project Management / Scrum Master / Support for magicplan and B&O tenant damage reporting interface
      - Acceptance/Usability/Regression/Confirmation Testing (Manual Testing)
      - Designing Test Plans and taking care of actuality of those
-     - Test Automation (cypress.io / javascript testing framework) writing test scripts, creating a plan for feature coverage
+     - Test Automation (cypress.io / javascript based e2e testing framework) writing test scripts, creating a plan for feature coverage
      - Writing Bug Reports and taking care of templates (companywide)
      - PHP and vue.js translations (Cleanup of unused/duplicate strings and creating new ones) for magicplan
      - Writing Release Notes and Coordination of Releases with the Lead Developer
