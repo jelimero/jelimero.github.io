@@ -36,7 +36,7 @@ params:
   newsletter:
     enable: false
   
-  background: "images/background.jpg"
+#  background: "images/background.jpg"
 
   logo:
     main: "images/main-logo.png"

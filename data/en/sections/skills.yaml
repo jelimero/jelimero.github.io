@@ -12,45 +12,45 @@ section:
 # Give a summary of you each skill in the summary section.
 skills:
 - name: Testrail
-  icon: "/images/testrail.png"
+  logo: "images/testrail.png"
   summary: "Capable of writing Test Cases and plans. Test runs used as communication of rest results to the management and as happy path test suite for the automated e2e tests."
   url: "https://www.gurock.com/testrail/"
 
 - name: Browserstack
-  icon: "/images/browserstack.png"
+  logo: "images/browserstack.png"
   summary: "Used for cross browser / device testing for webapplications"
   url: "https://www.browserstack.com/"
 
 - name: cypress.io
-  icon: "/images/cypress.png"
+  logo: "images/cypress.png"
   summary: "Capable of setting up cypress for web applications, writing test cases and creating test suites for e2e tests. Experienced in using docker images and making it work for Continuous Integration"
   url: "https://cypress.io/"
 
 - name: JavaScript
-  icon: "/images/js.png"
+  logo: "images/js.png"
   summary: "Capable of writing test scripts with cypress.io. Basic knowledge"
 
 - name: HTML5
-  icon: "/images/html.png"
+  logo: "images/html.png"
   summary: "Basic knowledge"
 
 - name: SQL
-  icon: "/images/sql.png"
+  logo: "images/sql.png"
   summary: "Capable of writing simple queries and using the data for verification while Testing the application"
 
 - name: npm
-  icon: "/images/npm.png"
+  logo: "images/npm.png"
   summary: "Used for integrating cypress.io as dev dependency and for managing packages that were used by cypress.io, like testrail reporter."
 
 - name: Docker
-  icon: "/images/docker.png"
+  logo: "images/docker.png"
   summary: "Basic Knowledge, used as development environment and made use of docker images to run cypress.io"
 
 - name: Git
-  icon: "/images/git.png"
+  logo: "images/git.png"
   summary: "Experienced with git-based development. Mostly with Gitlab"
   url: "https://gitlab.com/"
 
 - name: MacOS
-  icon: "/images/mac.jpg"
+  logo: "images/mac.jpg"
   summary: "Used as the main operating system. Capable of writing bash/shell scripts"
