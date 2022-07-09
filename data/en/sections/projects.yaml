@@ -9,9 +9,9 @@ section:
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: Hobby
-  filter: "hobby"
+#buttons:
+#- name: Hobby
+#  filter: "hobby"
 
 # your projects
 projects:
