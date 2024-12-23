@@ -1,0 +1,34 @@
+created: 2022-4-22
+ezcv_version: 0.3.4
+folder: cv
+name: cv
+required_config:
+  name:
+    default: name
+    description: Your full name
+    type: str
+sections:
+  education:
+    fields:
+      current: bool
+      institution: str
+      title: str
+      year_ended: int
+      year_started: int
+    type: markdown
+  skills:
+    fields:
+      image: str
+      name: str
+      skill: int
+    type: markdown
+  work_experience:
+    fields:
+      company: str
+      current: bool
+      month_started: str
+      year_started: int
+      role: str
+      year_ended: int
+    type: markdown
+updated: '2024-12-22'

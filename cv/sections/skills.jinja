@@ -1,0 +1,17 @@
+<section class="resume-section" id="skills">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Skills</h2>
+        {% for skill in skills %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">{{ skill.name }}</h3>
+                <div class="w3-light-grey w3-round">
+                    <div class="w3-container w3-blue w3-round" style="width:{{ skill.skill }}%">
+                        {{ skill.skill }}%
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</section>

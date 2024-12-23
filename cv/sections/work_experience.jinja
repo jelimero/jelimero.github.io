@@ -1,0 +1,22 @@
+<section class="resume-section" id="work-experience">
+
+    <div class="resume-section-content">
+        <h2 class="mb-5">Work Experience</h2>
+
+        {% for experience in work_experience|sort(attribute="0.month_started")|sort(attribute="0.year_started", reverse=True) %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">{{ experience[0]["role"] }}</h3>
+                <div class="subheading mb-3">{{ experience[0]["company"] }}</div>
+                <p>{{ experience[1] | safe }}</p>
+            </div>
+            <div class="flex-shrink-0">
+                <span class="text-primary">
+                    {{ experience[0]["month_started"] | pretty_datetime(experience[0]["year_started"], experience[0]["month_ended"], experience[0]["year_ended"], experience[0]["current"]) }}
+                </span>
+            </div>
+        </div>
+        {% endfor %}
+
+    </div>
+</section>

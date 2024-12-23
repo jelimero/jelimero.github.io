@@ -1,0 +1,20 @@
+<!-- Education-->
+<section class="resume-section" id="education">
+    <div class="resume-section-content">
+        <h2 class="mb-5">Education</h2>
+
+        {% for experience in education %}
+        <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div class="flex-grow-1">
+                <h3 class="mb-0">{{ experience[0]["institution"] }} </h3>
+                <div class="subheading mb-3">{% if experience[0]["title"] %} {{ experience[0]["title"] }}{% endif %}</div>
+                <div>{{ experience[1] | safe}}</div>
+            </div>
+            <div class="flex-shrink-0"><span class="text-primary">{{experience[0]["month_started"] | pretty_datetime(experience[0]["year_started"], experience[0]["month_ended"], experience[0]["year_ended"], experience[0]["current"])}}</span></div>
+        </div>
+
+        {% endfor %}
+
+
+    </div>
+</section>
