@@ -43,6 +43,9 @@
                     {% if skills_html %}
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     {% endif %}
+                    {% if volunteering_experience_html %}
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#volunteering-experience">Volunteering Experience</a></li>
+                    {%endif%}
                 </ul>
             </div>
         </nav>
@@ -77,6 +80,7 @@
             {{ education_html | safe }}
             <hr class="m-0" />
             {{ skills_html | safe }}
+            <hr class="m-0" />
         </div>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
