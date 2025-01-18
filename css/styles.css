@@ -606,8 +606,8 @@ progress {
   width: 100%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
-  margin-right: auto;
-  margin-left: auto;
+  margin-right: 1.0rem;
+  margin-left: 2.0rem;
 }
 
 @media (min-width: 576px) {
@@ -7409,7 +7409,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: #198754 !important;
+  background-color: #065261 !important;
 }
 
 .bg-secondary {
@@ -10917,7 +10917,7 @@ p.lead {
     left: 0;
     display: flex;
     flex-direction: column;
-    width: 17rem;
+    width: 20rem;
     height: 100vh;
   }
   #sideNav .navbar-brand {
@@ -10926,8 +10926,8 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
-    max-width: 10rem;
-    max-height: 10rem;
+    max-width: 15rem;
+    max-height: 15rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
   #sideNav .navbar-collapse {
@@ -10998,6 +10998,26 @@ section.resume-section .resume-section-content {
   }
 }
 
+.w3-light-grey {
+  margin-bottom: 15px;
+}
+
 w3-wide {
-  text-decoration-color: #aa5432;
+  margin-bottom: 0px;
+}
+
+#problem {
+  background-color: #134873;
+}
+
+#teamwork {
+  background-color: #6BB3C1;
+}
+
+#adaptability {
+  background-color: #A7DDF3;
+}
+
+#communication {
+  background-color: #9DACB5
 }
