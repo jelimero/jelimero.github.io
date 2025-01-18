@@ -54,23 +54,24 @@
             <!-- About-->
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
-                    <h1 class="mb-0">
+                    <h1 class="mb-0" id="myname">
                         {{config["name"]}}
                     </h1>
+                    <div class="subheading" id="contact"
+                        {%if config["phone"] %} <a href="tel:{{config['phone']}}">{{ config["phone"]}}</a> | {%endif%} {%if config["email"] %} <a href="mailto:{{config['email']}}">{{ config["email"]}}</a> | {%endif%} {%if config["address"] %} {{ config["address"]}}{%endif%}  
+                    </div>
                     <div class="subheading mb-5">
                     {% if config["role"] and config["company"] %}{{ config["role"] }} &nbsp;&bull;&nbsp; {{ config["company"] }} | {% elif config["role"] %}{{ config["role"] }} | {% elif config["company"] %}{{ config["company"] }} | {% else %}{% endif %}
-                        {%if config["phone"] %} <a href="tel:{{config['phone']}}">{{ config["phone"]}}</a> | {%endif%} {%if config["email"] %} <a href="mailto:{{config['email']}}">{{ config["email"]}}</a> | {%endif%} {%if config["address"] %} {{ config["address"]}}{%endif%}  
                     </div>
                     {% if config["biography"] %}
                     <p class="lead mb-5">{{config["biography"]}}</p>
                     {%endif%}
-                    <div class="social-icons">
-                    {% if config['social']["github"] %}
-                    <a class="social-icon" href="https://github.com/{{config['social']['github']}}" target="_blank"><i class="fab fa-github"></i></a>
-                    {% if config['social']["linkedin"] %}
-                    <a class="social-icon" href="https://www.linkedin.com/in/{{config['social']['linkedin']}}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-                    {% endif %}
-               
+                    <div class="social-icons" id="social">
+                        {% if config['social']["github"] %}
+                        <a class="social-icon" href="https://github.com/{{config['social']['github']}}" target="_blank"><i class="fab fa-github"></i></a>
+                        {% if config['social']["linkedin"] %}
+                        <a class="social-icon" href="https://www.linkedin.com/in/{{config['social']['linkedin']}}" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        {% endif %}
                     </div>
                 </div>
             </section>
